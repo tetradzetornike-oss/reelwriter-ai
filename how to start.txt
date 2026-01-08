@@ -1,0 +1,23 @@
+cd "D:\visual studio projects\reelwriter-ai\rw_backend"
+.\venv\Scripts\Activate.ps1
+uvicorn rw_uvicorn_app:app --reload --port 8010
+
+
+
+cd "D:\visual studio projects\reelwriter-ai\rw_frontend"
+npm run dev
+
+
+http://127.0.0.1:3000
+მისამართი
+
+
+შეჯამება (მეხსიერებისთვის)
+
+Backend → 8010
+
+Frontend → 3000
+
+Docker გამორთული
+
+OpenAI API მუშაობს
